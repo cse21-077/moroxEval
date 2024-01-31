@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="..\Styles\Dash_style.css">
+    <title>DashBoard | Morox</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <aside class="left-section">
+            <div class="logo">
+                <button class="menu-btn" id="menu-close">
+                    <i class='bx bx-log-out-circle'></i>
+                </button>
+                <img src="..\assets/logo.png">
+                <a href="#">Morox</a>
+            </div>
+
+            <div class="sidebar">
+                <div class="item" id="active">
+                    <i class='bx bx-home-alt-2'></i>
+                    <a href="#">Overview</a>
+                </div>
+                <div class="item">
+                    <i class='bx bx-grid-alt'></i>
+                    <a href="#">Today</a>
+                </div>
+                <div class="item">
+                    <i class='bx bx-folder'></i>
+                    <a href="#">Client List</a>
+                </div>
+                <div class="item">
+                    <i class='bx bx-user-plus'></i>
+                    <a href="#">Add Client</a>
+                </div>
+                <div class="item">
+                    <i class='bx bx-check-shield'></i>
+                    <a href="#">Evaluate</a>
+                </div>
+                <div class="item">
+                    <i class='bx bx-file'></i>
+                    <a href="#">Records</a>
+                </div>
+                <div class="item">
+                    <i class='bx bx-info-circle'></i>
+                    <a href="#">Information</a>
+                </div>
+            </div>
+
+            <div class="pic">
+                <img src="..\assets/pro.png">
+            </div>
+
+        </aside>
+
+        <main>
+            <header>
+                <button class="menu-btn" id="menu-open">
+                    <i class='bx bx-menu'></i>
+                </button>
+                <h5>Hello, welcome back🥳</h5>
+            </header>
+
+            <div class="separator">
+                <div class="info">
+                    <h3>My Dashboard</h3>
+                    <a href="#">View All</a>
+                </div>
+                <div class="search">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Search...">
+                </div>
+            </div>
+
+            <div class="analytics">
+                <div class="item">
+                    <div class="progress">
+                        <div class="info">
+                            <h5>Pending Clients</h5>
+                            <p>42 clients</p>
+                        </div>
+                    </div>
+                    <i class='bx bx-map-pin'></i>
+                </div>
+                <div class="item">
+                    <div class="progress">
+                        <div class="info">
+                            <h5>Completed Client Ev.</h5>
+                            <p>13 Evaluations</p>
+                        </div>
+                    </div>
+                    <i class='bx bx-user-voice'></i>
+                </div>
+                <div class="item">
+                    <div class="progress">
+                        <div class="info">
+                            <h5>Reports</h5>
+                            <p>All completed evaluation Files</p>
+                        </div>
+                    </div>
+                    <i class='bx bxs-plane-land'></i>
+                </div>
+                <div class="item">
+                    <div class="progress">
+                        <div class="info">
+                            <h5>Archives</h5>
+                            <p>Drafts</p>
+                        </div>
+                    </div>
+                    <i class='bx bxs-castle'></i>
+                </div>
+            </div>
+
+            <div class="separator">
+                <div class="info">
+                    <h3>Today</h3>
+                    <a href="#">View All</a>
+                </div>
+                <input type="date" value="2023-10-15">
+            </div>
+
+            <div class="today">
+                <div class="item">
+                    <div class="left">
+                        <div class="icon">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="details">
+                            <h5>Jame Lekgowe</h5>
+                            <p>8:00 - 10:00</p>
+                            <p>+267 712345635</p>
+                        </div>
+                    </div>
+                    <i class='bx bx-dots-vertical-rounded'></i>
+                </div>
+                <div class="item">
+                    <div class="left">
+                        <div class="icon">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="details">
+                            <h5>Topo Lefika</h5>
+                            <p>13:00 - 14:00</p>
+                            <p>+267 74234563</p>
+                        </div>
+                    </div>
+                    <i class='bx bx-dots-vertical-rounded'></i>
+                </div>
+                <div class="item">
+                    <div class="left">
+                        <div class="icon">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="details">
+                            <h5>Steffy</h5>
+                            <p>15:00 - 16:00</p>
+                            <p>+267 73452343</p>
+                        </div>
+                    </div>
+                    <i class='bx bx-dots-vertical-rounded'></i>
+                </div>
+                <div class="item">
+                    <div class="left">
+                        <div class="icon">
+                            <i class='bx bx-user'></i>
+                        </div>
+                        <div class="details">
+                            <h5>Thapelo</h5>
+                            <p>15:20 - 16:30</p>
+                            <p>+267 72434343</p>
+                        </div>
+                    </div>
+                    <i class='bx bx-dots-vertical-rounded'></i>
+                </div>
+            </div>
+        </main>
+
+        <aside class="right-section">
+            <div class="top">
+                <i class='bx bx-bell'></i>
+                <div class="profile">
+                    <div class="left">
+                        <img src="..\assets/logo.png">
+                        <div class="user">
+                            <h5>Morox User2</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separator" id="first">
+                <h4>Evaluating Instructions</h4>
+            </div>
+
+            <div class="Instruct">
+                <div class="item">
+                    <div class="top">
+                        <p>Property</p>
+                        <p>Location</p>
+                    </div>
+                    <div class="bottom">
+                        <div class="line"></div>
+                        <h3>01</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <p>Structural Elements</p>
+                        <p>& Conditions</p>
+                    </div>
+                    <div class="bottom">
+                        <div class="line"></div>
+                        <h3>02</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <p>Plith</p>
+                        <p>Area</p>
+                    </div>
+                    <div class="bottom">
+                        <div class="line"></div>
+                        <h3>03</h3>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="top">
+                        <p>Value</p>
+                        <p>Open Market & Forced Sale</p>
+                    </div>
+                    <div class="bottom">
+                        <div class="line"></div>
+                        <h3>04</h3>
+                    </div>
+                </div>
+            </div>
+
+
+        </aside>
+
+    </div>
+
+    <script src="Js\dashscript.js"></script>
+</body>
+
+</html>
